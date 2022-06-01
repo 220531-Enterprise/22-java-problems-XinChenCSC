@@ -18,10 +18,14 @@ public class EvaluationService {
 	 * Otherwise if it is positive, calculate the value of miles per hour, round it
 	 * and return it. For conversion and rounding use Math.round().
 	 */
+
 	static class SpeedConverter {
 
 		public static long toMilesPerHour(double kilometersPerHour) {
 			// TODO Write an implementation for this method declaration
+			if(kilometersPerHour < 0) return -1;
+			
+			
 			return 0;
 		}
 
